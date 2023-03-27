@@ -1,7 +1,7 @@
 import style from './resume.module.css'
 import {skills} from '../Projects/data.js'
 
-export default function Resume(){
+export default function Resume({windowsize}){
     const skillsHtml = skills.map(skill => {
         return <li key={skill}>{skill}</li>
     })
@@ -10,7 +10,6 @@ export default function Resume(){
             <h1 className={style.page_title}>Resume</h1>
             <div className={`${style.section} ${style.skills}`}>
                 <h2 className={style.section_title}>Expertise</h2>
-                <hr></hr>
                 <div className={style.content}>
                     <ul>
                         {skillsHtml}
@@ -19,7 +18,6 @@ export default function Resume(){
             </div>
             <div className={`${style.section} ${style.education}`}>
                 <h2 className={style.section_title}>Education</h2>
-                <hr></hr>
                 <div className={style.content}>
                     <ul>
                         <li>
@@ -51,7 +49,6 @@ export default function Resume(){
             </div>
             <div className={`${style.section} ${style.volunteer}`}>
                 <h2 className={style.section_title}>Volunteer</h2>
-                <hr></hr>
                 <div className={style.content}>
                     <h3>Mentor Scrimba Students</h3>
                     <p className={style.date}>01/23-present</p>
