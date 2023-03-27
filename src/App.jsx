@@ -3,8 +3,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import Main from './components/Main/Main'
 
-import Index from './pages/Index/Index'
 import Projects from './pages/Projects/Projects'
 import Resume from './pages/Resume/Resume'
 import Contact from './pages/Contact/Contact'
@@ -30,7 +30,7 @@ export default function App() {
         <div className={!scroll ? `${style.app}` : `${style.app} ${style.no_scroll}`}>
           <Header windowSize={windowSize} setScroll={setScroll}/>
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/" element={<Main />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/contact" element={<Contact />} />
