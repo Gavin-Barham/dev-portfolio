@@ -1,0 +1,74 @@
+input, .text_area{
+    padding-right: .5em;
+    width: 80%;
+}
+label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+form{
+    margin-top: 2em;
+}
+.send{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0  0 1em;
+    background-color: #EEA304;
+    cursor: pointer;
+    
+}
+.send:active{
+    transition: background-color .5s ease-in-out;
+    background-color: #F3F3F3;
+}
+
+.form_header{
+    margin: 1em 0 0;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0 1em 0 1em;
+}
+
+.contact_info{
+    margin: 1.5em 0;
+    padding-left: 1em;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1em;
+    /* margin-right: 1em; */
+}
+
+.text_area{
+    resize: none;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateY(70%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+@media (min-width: 700px) {
+    .contact_form{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .input{ width: 500px;}
+}

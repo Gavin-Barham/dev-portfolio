@@ -1,0 +1,45 @@
+/* .education{
+    
+} */
+h1, h2, h3, h4{
+    margin: 0;
+}
+.section_title{
+    padding: .5em 0;
+}
+.resume{
+    padding: 1em;
+}
+.course{
+    padding-bottom: 1em 0;
+}
+.bullet{
+    padding: 1em 0;
+}
+.section{
+    padding: 1em 0;
+}
+.page_title{
+    padding: 1.5rem 0;
+}
+.date{
+    font-size: .7em;
+}
+.subject{
+    font-weight: 500;
+}
+
+@media (min-width: 700px) {
+    .section{
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #C7C7C7;
+        /* padding: 2em; */
+    }
+    .content{
+        width: 300px;
+    }
+    .bullet{
+        flex-wrap: wrap;
+    }
+}

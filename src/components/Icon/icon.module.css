@@ -1,0 +1,54 @@
+
+.button_container {
+    --icon-height: 1em;
+    --line-height: calc(var(--icon-height) / 8);
+    --y-offset: calc((var(--icon-height) / 2) - (var(--line-height) / 2));
+      margin-top: 1rem;
+    /* This is where you control the size */
+                font-size: 1rem;
+    /* ---------------------------------- */
+    
+    overflow: hidden;
+    
+    padding: 20px;
+  }  
+  
+  .button {
+    width: var(--icon-height);
+    height: var(--icon-height);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .line {
+    background-color: black;
+    width: 100%;
+    height: var(--line-height);
+    
+    border-radius: 8px;
+    
+    transition: all 0.5s;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  .slid {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+  
+  .handle_top {
+    transform: translateY(var(--y-offset)) rotateZ(-45deg) scale(1.3);
+  }
+  
+  .middle {
+    transition: all 0.4s cubic-bezier(0.575, 0.885, 0.32, 1.1);
+  }
+  
+  .handle_bottom {
+    transform: translateY(calc(-1 * var(--y-offset))) rotateZ(45deg) scale(1.3);
+  }
