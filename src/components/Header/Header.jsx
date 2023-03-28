@@ -37,29 +37,32 @@ export default function Header(props) {
             </div>
             <nav className={show ? style.show : null}>
               <ul className={style.nav__items_dropdown}>
-                <li className={style.link}>
+                <li className={style.link}
+                  onClick={handleLinkClick}
+                  >
                   <NavLink
                     className={style.nav__items}
                     to="/dev-portfolio/projects"
-                    onClick={handleLinkClick}
                   >
                     Projects
                   </NavLink>
                 </li>
-                <li className={style.link}>
+                <li className={style.link}
+                  onClick={handleLinkClick}
+                >
                   <NavLink
                     className={style.nav__items}
                     to="/dev-portfolio/resume"
-                    onClick={handleLinkClick}
                   >
                     Resume
                   </NavLink>
                 </li>
-                <li className={style.link}>
+                <li className={style.link}
+                  onClick={handleLinkClick}
+                >
                   <NavLink
                     className={style.nav__items}
                     to="/dev-portfolio/contact"
-                    onClick={handleLinkClick}
                   >
                     Contact
                   </NavLink>
@@ -71,29 +74,32 @@ export default function Header(props) {
           <ul
             className={`${style.desktop_nav} ${style.nav__items_dropdown}`}
           >
-            <li>
+            <li
+              onClick={handleLinkClick}
+            >
               <NavLink
                 className={style.navlink}
                 to="/dev-portfolio/projects"
-                onClick={handleLinkClick}
               >
                 Projects
               </NavLink>
             </li>
-            <li>
+            <li
+              onClick={handleLinkClick}
+            >
               <NavLink
                 className={style.navlink}
                 to="/dev-portfolio/resume"
-                onClick={handleLinkClick}
               >
                 Resume
               </NavLink>
             </li>
-            <li>
+            <li
+              onClick={handleLinkClick}
+            >
               <NavLink
                 className={style.navlink}
                 to="/dev-portfolio/contact"
-                onClick={handleLinkClick}
               >
                 Contact
               </NavLink>
