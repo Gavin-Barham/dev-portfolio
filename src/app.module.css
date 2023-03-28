@@ -7,3 +7,9 @@
 .no_scroll{
     overflow: hidden;
 }
+
+@media (mac-width: 1200px){
+    .app{
+        margin: 0 auto;
+    }
+}
