@@ -16,13 +16,13 @@ export default function Main() {
                         </p>
                         <div className={style.btn_container}>
                             <div> 
-                                <NavLink className={`${style.nav_btn} ${style.yellow}`} to='/projects'>Projects</NavLink>
+                                <NavLink className={`${style.nav_btn} ${style.yellow}`} to='/dev-portfolio/projects'>Projects</NavLink>
                             </div>
                             <div>
-                                <NavLink className={`${style.nav_btn} ${style.red}`} to='/resume'>Resume</NavLink>
+                                <NavLink className={`${style.nav_btn} ${style.red}`} to='/dev-portfolio/resume'>Resume</NavLink>
                             </div>
                             <div>
-                                <NavLink className={`${style.nav_btn} ${style.blue}`} to='/contact'>Contact</NavLink>
+                                <NavLink className={`${style.nav_btn} ${style.blue}`} to='/dev-portfolio/contact'>Contact</NavLink>
                             </div>
                         </div>
                     </div>

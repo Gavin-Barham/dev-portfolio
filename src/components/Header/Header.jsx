@@ -18,7 +18,7 @@ export default function Header(props) {
   return (
     <>
       <header className={style.container}>
-        <NavLink className={style.navlink} to="/">
+        <NavLink className={style.navlink} to="/dev-portfolio/">
           <div className={style.index_link}>
             <div className={style.circle}></div>
             <h3 className={style.name}>Gavin Barham</h3>
@@ -40,7 +40,7 @@ export default function Header(props) {
                 <li className={style.link}>
                   <NavLink
                     className={style.nav__items}
-                    to="/projects"
+                    to="/dev-portfolio/projects"
                     onClick={handleLinkClick}
                   >
                     Projects
@@ -49,7 +49,7 @@ export default function Header(props) {
                 <li className={style.link}>
                   <NavLink
                     className={style.nav__items}
-                    to="/resume"
+                    to="/dev-portfolio/resume"
                     onClick={handleLinkClick}
                   >
                     Resume
@@ -58,7 +58,7 @@ export default function Header(props) {
                 <li className={style.link}>
                   <NavLink
                     className={style.nav__items}
-                    to="/contact"
+                    to="/dev-portfolio/contact"
                     onClick={handleLinkClick}
                   >
                     Contact
@@ -74,7 +74,7 @@ export default function Header(props) {
             <li>
               <NavLink
                 className={style.navlink}
-                to="/projects"
+                to="/dev-portfolio/projects"
                 onClick={handleLinkClick}
               >
                 Projects
@@ -83,7 +83,7 @@ export default function Header(props) {
             <li>
               <NavLink
                 className={style.navlink}
-                to="/resume"
+                to="/dev-portfolio/resume"
                 onClick={handleLinkClick}
               >
                 Resume
@@ -92,7 +92,7 @@ export default function Header(props) {
             <li>
               <NavLink
                 className={style.navlink}
-                to="/contact"
+                to="/dev-portfolio/contact"
                 onClick={handleLinkClick}
               >
                 Contact
