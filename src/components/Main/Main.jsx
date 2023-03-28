@@ -1,7 +1,7 @@
 import {NavLink} from 'react-router-dom'
 
 import style from './Main.module.css'
-import profilePic from '../../profile.png'
+import profilePic from '../../images/profile.png'
 
 
 export default function Main() {
