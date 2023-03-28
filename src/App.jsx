@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { BrowserRouter as Router} from 'react-router-dom'
 import { Routes, Route } from "react-router-dom";
 
 import Header from './components/Header/Header'
@@ -27,6 +28,7 @@ export default function App() {
       }
   })
     return (
+        <Router>
         <div className={!scroll ? `${style.app}` : `${style.app} ${style.no_scroll}`}>
           <Header windowSize={windowSize} setScroll={setScroll}/>
             <Routes>
@@ -37,6 +39,7 @@ export default function App() {
             </Routes>
           <Footer />
         </div>
+        </Router>
     )
 }
 
