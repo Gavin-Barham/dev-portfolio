@@ -32,10 +32,10 @@ export default function App() {
         <div className={!scroll ? `${style.app}` : `${style.app} ${style.no_scroll}`}>
           <Header windowSize={windowSize} setScroll={setScroll}/>
             <Routes>
-              <Route path="/dev-portfolio/" element={<Main />} />
-              <Route path="/dev-portfolio/projects" element={<Projects />} />
-              <Route path="/dev-portfolio/resume" element={<Resume windowSize={windowSize}/>} />
-              <Route path="/dev-portfolio/contact" element={<Contact />} />
+              <Route path="/" element={<Main />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/resume" element={<Resume windowSize={windowSize}/>} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           <Footer />
         </div>
