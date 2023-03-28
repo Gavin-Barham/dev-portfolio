@@ -18,7 +18,7 @@ export default function Header(props) {
   return (
     <>
       <header className={style.container}>
-        <NavLink className={style.navlink} to="/dev-portfolio/">
+        <NavLink className={style.navlink} to="/">
           <div className={style.index_link}>
             <div className={style.circle}></div>
             <h3 className={style.name}>Gavin Barham</h3>
@@ -42,7 +42,7 @@ export default function Header(props) {
                   >
                   <NavLink
                     className={style.nav__items}
-                    to="/dev-portfolio/projects"
+                    to="/projects"
                   >
                     Projects
                   </NavLink>
@@ -52,7 +52,7 @@ export default function Header(props) {
                 >
                   <NavLink
                     className={style.nav__items}
-                    to="/dev-portfolio/resume"
+                    to="/resume"
                   >
                     Resume
                   </NavLink>
@@ -62,7 +62,7 @@ export default function Header(props) {
                 >
                   <NavLink
                     className={style.nav__items}
-                    to="/dev-portfolio/contact"
+                    to="/contact"
                   >
                     Contact
                   </NavLink>
@@ -79,7 +79,7 @@ export default function Header(props) {
             >
               <NavLink
                 className={style.navlink}
-                to="/dev-portfolio/projects"
+                to="/projects"
               >
                 Projects
               </NavLink>
@@ -89,7 +89,7 @@ export default function Header(props) {
             >
               <NavLink
                 className={style.navlink}
-                to="/dev-portfolio/resume"
+                to="/resume"
               >
                 Resume
               </NavLink>
@@ -99,7 +99,7 @@ export default function Header(props) {
             >
               <NavLink
                 className={style.navlink}
-                to="/dev-portfolio/contact"
+                to="/contact"
               >
                 Contact
               </NavLink>
