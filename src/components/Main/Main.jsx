@@ -12,7 +12,7 @@ export default function Main() {
                         <h1 className={style.large_text}>Hello</h1>
                         <h3 className={style.title}>A bit about me</h3>
                         <p>
-                            I began my coding journey on March 24, 2022 with CS50x an intro to computer science course offered by Harvard, and since that first "Hello, world" i haven't looked back. The endless learning and depth of the field has been my biggest draw to programming by far as well as the joy of creating things that help people, and solve problems for them.
+                            I began my coding journey on March 24, 2022 with CS50x an intro to computer science course offered by Harvard. Since that first - “Hello, world!” - I haven't looked back. The depth of the field and endless learning curve continues to intrigue and draw me deeper into software engineering and programming. The joy found in successfully creating applications that potentially provide vast improvements in the day to day operations of homes, businesses, and industries, seemingly offers the kind of satisfaction I seek that will make me look forward to opening my code editor each day.
                         </p>
                         <div className={style.btn_container}>
                             <div> 
