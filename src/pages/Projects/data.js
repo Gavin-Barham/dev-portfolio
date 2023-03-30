@@ -9,7 +9,7 @@ const projects = [
         name: "Dice Game",
         repo: "https://github.com/Gavin-Barham/strixhaven-rpg-app",
         coverImg: project1,
-        description: "A dice rolling rpg game for desktop browser",
+        description: "A dice rolling rpg game for desktop.",
         link: "https://voluble-faun-c3ca7c.netlify.app"
     },
     {
@@ -17,7 +17,7 @@ const projects = [
         name: "Unit Converter",
         repo: "https://github.com/Gavin-Barham/unit-coverter",
         coverImg: project2,
-        description: "Convert volume, length, and mass between metric and imperial",
+        description: "Convert volume, length, and mass between metric and imperial.",
         link: "https://jolly-salamander-62f670.netlify.app"
     },
     {
@@ -25,7 +25,7 @@ const projects = [
         name: "Password Generator",
         repo: "https://github.com/Gavin-Barham/password-generator",
         coverImg: project3,
-        description: "A random password generator",
+        description: "Random unique password generator.",
         link: "https://wonderful-liger-af836c.netlify.app"
     },
     {
@@ -33,7 +33,7 @@ const projects = [
         name: "NFT Coverpage",
         repo: "https://github.com/Gavin-Barham/NFT-responsive",
         coverImg: project4,
-        description: "A responsive NFT market homepage",
+        description: "A responsive NFT market homepage.",
         link: "https://boisterous-arithmetic-af9d9e.netlify.app"
     },
 ]
