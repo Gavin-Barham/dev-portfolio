@@ -9,6 +9,22 @@ export default function Resume({windowsize}){
         <div className={style.resume}>
             <h1 className={style.page_title}>Resume</h1>
             <div className={`${style.section} ${style.skills}`}>
+                <h2 className={style.section_title}>Experience</h2>
+                <div className={style.content}>
+                    <ul>
+                        <li>
+                            <div className={style.course}>
+                                <h3>Fullstack Developer</h3>
+                                <h5>
+                                    Polaris North Start Planning & Management Systems
+                                </h5>
+                                <p className={style.date}>05/23 - current</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className={`${style.section} ${style.skills}`}>
                 <h2 className={style.section_title}>Expertise</h2>
                 <div className={style.content}>
                     <ul>
