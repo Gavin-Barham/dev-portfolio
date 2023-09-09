@@ -1,4 +1,4 @@
-import project1 from './../../images/project_images/project1.png'
+import project1 from './../../images/project_images/gb-react-router.png'
 import project2 from './../../images/project_images/project2.png'
 import project3 from './../../images/project_images/project3.png'
 import project4 from './../../images/project_images/project4.png'
@@ -6,11 +6,11 @@ import project4 from './../../images/project_images/project4.png'
 const projects = [
     {
         id: 1,
-        name: "Dice Game",
-        repo: "https://github.com/Gavin-Barham/strixhaven-rpg-app",
+        name: "gb-react-router",
+        repo: "https://github.com/Gavin-Barham/gb-react-router",
         coverImg: project1,
-        description: "A dice rolling rpg game for desktop.",
-        link: "https://voluble-faun-c3ca7c.netlify.app"
+        description: "A type safe React routing library for SPA. Built with Typescript and React.",
+        link: "https://www.npmjs.com/package/gb-react-router"
     },
     {
         id: 2,
