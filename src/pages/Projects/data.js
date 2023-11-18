@@ -1,5 +1,5 @@
 import project1 from './../../images/project_images/gb-react-router.png'
-import project2 from './../../images/project_images/project2.png'
+import project2 from './../../images/project_images/ht-docs.png'
 import project3 from './../../images/project_images/project3.png'
 import project4 from './../../images/project_images/project4.png'
 
@@ -14,11 +14,11 @@ const projects = [
     },
     {
         id: 2,
-        name: "Unit Converter",
-        repo: "https://github.com/Gavin-Barham/unit-coverter",
+        name: "Health Tracker API",
+        repo: "https://github.com/Gavin-Barham/ht-server-ts",
         coverImg: project2,
-        description: "Convert volume, length, and mass between metric and imperial.",
-        link: "https://jolly-salamander-62f670.netlify.app"
+        description: "A RestfulAPI backend for a diabetes health tracking app.",
+        link: "https://health-tracker-api-docs.netlify.app"
     },
     {
         id: 3,
