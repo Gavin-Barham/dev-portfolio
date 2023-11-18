@@ -38,6 +38,6 @@ const projects = [
     },
 ]
 
-const skills = ["Python", "SQL", "SQLite", "Javascript", "Node.js", "Express.js", "React", "HTML5", "CSS", "REST API's", "Git", "Terminal"]
+const skills = ["C","Javascript","Typescript","Python","SQL","SQLite","PostgreSQL","Firestore","Node.js","Express.js","React","React-Native","Redux","HTML5","CSS","SCSS","REST API's","Docker","AWS","Git","SSH","Linux CLI"]
 
 export {projects, skills}
