@@ -9,7 +9,7 @@ const projects = [
         name: "gb-react-router",
         repo: "https://github.com/Gavin-Barham/gb-react-router",
         coverImg: project1,
-        description: "A type safe React routing library for SPA. Built with Typescript and React.",
+        description: "A type safe React routing library for SPA's. Built with Typescript and React.",
         link: "https://www.npmjs.com/package/gb-react-router"
     },
     {
